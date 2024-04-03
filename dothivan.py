@@ -7,3 +7,6 @@
 # ==>
 # Nam đế cư
 # Nam quốc sơn hà
+with open('text.txt', 'r') as file:
+    for line in reversed(list(file.readlines())):
+        print(line.strip())
